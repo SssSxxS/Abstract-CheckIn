@@ -1,0 +1,19 @@
+@use "reset";
+@use "variables";
+
+html {
+  height: 100%;
+
+  background-color: var(--global-background-color);
+  color: var(--global-text-color);
+}
+
+body {
+  min-height: 100%;
+
+  .body {
+    display: grid;
+    justify-items: center;
+    gap: 128px;
+  }
+}

@@ -1,0 +1,42 @@
+.container {
+  position: sticky;
+
+  max-width: var(--header-container-max-width);
+  width: 100%;
+  padding-top: 18px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .item {
+    height: 40px;
+    min-width: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu {
+    display: flex;
+    gap: 20px;
+
+    font-size: var(--header-button-font-size);
+    font-weight: var(--header-button-font-weight);
+    .item {
+      background-color: var(--header-button-background-color);
+      border-radius: var(--header-button-border-radius);
+      box-shadow: var(--header-button-box-shadow);
+
+      transition: all 0.1s;
+      &:hover {
+        color: var(--header-button-hover-text-color);
+        box-shadow: var(--header-button-hover-box-shadow);
+      }
+      &:active {
+        box-shadow: var(--header-button-active-box-shadow);
+      }
+    }
+  }
+}

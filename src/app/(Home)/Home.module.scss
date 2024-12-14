@@ -1,0 +1,40 @@
+@keyframes squeeze {
+  0%,
+  100% {
+    transform: scaleY(1);
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleY(0.95);
+    transform: scaleX(0.98);
+  }
+}
+
+.bg {
+  position: absolute;
+  z-index: -100;
+
+  object-fit: cover;
+}
+
+.container {
+  max-width: var(--home-container-max-width);
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  gap: 70px;
+
+  .ad_wrapper {
+    video {
+      border: outset 10px #b9b9b9;
+      box-shadow: 0 4px 100px 4px #00e382;
+
+      &:hover {
+        animation: squeeze 1s ease;
+      }
+    }
+  }
+}

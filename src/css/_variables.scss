@@ -1,0 +1,42 @@
+:root {
+  --color-black-100: #000000;
+  --color-black-90: #1a1a1a;
+  --color-black-80: #373737;
+  // --color-black-70: #4d4d4d;
+  // --color-black-60: #666666;
+  // --color-black-50: #808080;
+  // --color-black-40: #999999;
+  // --color-black-30: #b3b3b3;
+  // --color-black-20: #cccccc;
+  // --color-black-10: #e6e6e6;
+
+  --color-white-100: #ffffff;
+  --color-white-90: #f2f2f2;
+  --color-white-80: #e6e6e6;
+  // --color-white-70: #d9d9d9;
+  // --color-white-60: #cccccc;
+  // --color-white-50: #b3b3b3;
+  // --color-white-40: #a6a6a6;
+  // --color-white-30: #999999;
+  // --color-white-20: #7f7f7f;
+  // --color-white-10: #666666;
+
+  --color-aquamarine: #36f197;
+
+  --global-background-color: var(--color-white-90);
+  --global-text-color: var(--color-black-80);
+
+  --header-container-max-width: 1440px;
+  --header-button-background-color: var(--color-white-100);
+  --header-button-font-size: 15px;
+  --header-button-font-weight: 500;
+  --header-button-border-radius: 50px;
+  --header-button-box-shadow: 0 0 1px rgba(0, 0, 0, 0.1), 0 6px 10px -4px rgba(0, 0, 0, 0.12);
+  --header-button-hover-text-color: var(--color-aquamarine);
+  --header-button-hover-box-shadow: 0 0 1px rgba(54, 241, 151, 0.3), 0 6px 10px -4px rgba(54, 241, 151, 0.32);
+  --header-button-active-box-shadow: 0 0 1px rgba(54, 241, 151, 0.5), 0 6px 16px -4px rgba(54, 241, 151, 0.52);
+
+  --home-container-max-width: 1440px;
+
+  --footer-container-max-width: 600px;
+}
